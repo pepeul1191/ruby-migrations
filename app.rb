@@ -26,17 +26,16 @@ end
 
 # --------------------------------------------------------------------------------------
 
-for u in Usuario.all
-	#puts u.nombre
-	puts u.to_json
-end
-
 def crear(usuario, contrasenia)
 	u = Usuario.new
 	u.nombre = usuario
 	u.contrasenia = contrasenia
 	u.save
 	puts u.id
+	for u in Usuario.all
+		#puts u.nombre
+		puts u.to_json
+	end
 end
 
 def listar_usuarios
