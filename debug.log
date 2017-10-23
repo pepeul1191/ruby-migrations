@@ -28,3 +28,92 @@ D, [2017-10-23T11:19:04.939599 #4624] DEBUG -- :   [1m[36mUsuario Load (0.0ms)
 D, [2017-10-23T11:19:04.955200 #4624] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
 D, [2017-10-23T11:19:04.955200 #4624] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "contrasenia") VALUES (?, ?)[0m  [["nombre", "carlos"], ["contrasenia", "tevez"]]
 D, [2017-10-23T11:19:04.986400 #4624] DEBUG -- :   [1m[35m (31.2ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:26:10.718545 #6088] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:27:19.295847 #3184] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:27:32.807534 #2448] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:27:39.334377 #4424] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:28:22.039866 #1724] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:39:08.112813 #4472] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:39:18.881381 #6060] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:39:34.305692 #6664] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:40:26.646020 #3624] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:41:26.410870 #528] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:42:04.805875 #6960] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:42:26.921240 #4428] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:43:50.496269 #6184] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:48:18.180851 #6912] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:51:40.230851 #6392] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:52:14.354651 #5560] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:52:14.354651 #5560] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2017-10-23T11:52:14.355651 #5560] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2017-10-23T11:52:14.355651 #5560] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2017-10-23T11:52:14.355651 #5560] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T11:52:14.355651 #5560] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:52:14.355651 #5560] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "default_env"], ["created_at", "2017-10-23 16:52:14.355651"], ["updated_at", "2017-10-23 16:52:14.355651"]]
+D, [2017-10-23T11:52:14.387851 #5560] DEBUG -- :   [1m[35m (32.2ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:53:09.892451 #2528] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:53:09.892451 #2528] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T11:53:09.908051 #2528] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:53:09.908051 #2528] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:53:39.314251 #6584] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:55:15.977051 #5408] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:55:15.977051 #5408] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T11:55:15.992651 #5408] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:55:15.992651 #5408] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:56:55.923251 #7156] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:56:55.923251 #7156] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T11:56:55.923251 #7156] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:56:55.923251 #7156] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:57:33.275251 #4136] DEBUG -- :   [1m[36mUsuario Load (15.6ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:57:33.275251 #4136] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T11:57:33.275251 #4136] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:57:33.275251 #4136] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:57:51.204491 #5412] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:58:07.538854 #7160] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:58:59.590088 #5672] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:58:59.590088 #5672] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T11:58:59.590088 #5672]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T11:59:39.345479 #6112] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:59:39.345479 #6112] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T11:59:39.345479 #6112]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:00:04.388078 #6252] DEBUG -- :   [1m[36mUsuario Load (15.6ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:00:04.388078 #6252] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:00:04.388078 #6252]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:00:14.962989 #4612] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:00:14.962989 #4612] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:00:14.962989 #4612]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:00:33.717923 #6708] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:00:33.733523 #6708] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:00:33.733523 #6708]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:00:38.930867 #6252] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:00:38.930867 #6252] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:00:38.930867 #6252]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:01:06.485542 #6204] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:01:06.485542 #6204] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:01:06.485542 #6204]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:01:39.448240 #6468] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:01:39.454240 #6468] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:01:39.454240 #6468]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:04:11.154854 #3592] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:04:11.154854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2017-10-23T12:04:11.154854 #3592]  INFO -- : Migrating to CreateVarios (1)
+D, [2017-10-23T12:04:11.154854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T12:04:11.155854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+D, [2017-10-23T12:04:11.155854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2017-10-23T12:04:11.155854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar)[0m
+D, [2017-10-23T12:04:11.155854 #3592] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "1"]]
+D, [2017-10-23T12:04:11.155854 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T12:04:11.157854 #3592] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T12:04:11.162855 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T12:04:11.162855 #3592] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T12:04:42.615795 #6508] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:04:42.615795 #6508] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2017-10-23T12:04:42.615795 #6508] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T12:04:42.631396 #6508] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T12:04:42.631396 #6508] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T12:04:49.074215 #6784] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:04:54.570392 #3744] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T12:04:54.585992 #3744] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2017-10-23T12:04:54.585992 #3744] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-10-23T12:04:54.585992 #3744] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T12:04:54.585992 #3744] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m

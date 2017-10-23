@@ -3,18 +3,32 @@ require 'sqlite3'
 require 'logger'
 require 'json'
 
+# --------------------------------------------------------------------------------------
+
 ActiveRecord::Base.logger = Logger.new('debug.log')
 configuration = YAML::load(IO.read('config/database.yml'))
 ActiveRecord::Base.establish_connection(configuration['development'])
 
+# --------------------------------------------------------------------------------------
+
 class Usuario < ActiveRecord::Base
+	belongs_to :estado_usuarios
+	has_one :estado_usuarios
 	self.table_name = 'usuarios'
-	self.primary_key = 'id'
-	
+	#self.primary_key = 'id'
 end
 
+class EstadoUsuario < ActiveRecord::Base
+	has_many :usuarios
+	self.table_name = 'estado_usuarios'
+	#self.primary_key = 'id'
+end
+
+# --------------------------------------------------------------------------------------
+
 for u in Usuario.all
-	puts u.nombre
+	#puts u.nombre
+	puts u.to_json
 end
 
 def crear(usuario, contrasenia)
@@ -25,4 +39,12 @@ def crear(usuario, contrasenia)
 	puts u.id
 end
 
-crear('carlos', 'tevez')
+def listar_usuarios
+	#for u in Usuario.joins(:estado_usuario_id)
+		#puts u.nombre
+		#puts u.to_json
+	#end
+end
+
+#crear('carlos', 'tevez')
+listar_usuarios
