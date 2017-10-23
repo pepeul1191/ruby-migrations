@@ -8,19 +8,21 @@ configuration = YAML::load(IO.read('config/database.yml'))
 ActiveRecord::Base.establish_connection(configuration['development'])
 
 class Usuario < ActiveRecord::Base
-	self.table_name = "usuarios"
+	self.table_name = 'usuarios'
+	self.primary_key = 'id'
+	
 end
 
 for u in Usuario.all
 	puts u.nombre
 end
 
-def crear
+def crear(usuario, contrasenia)
 	u = Usuario.new
-	u.nombre = 'pablo'
-	u.contrasenia = 'rojas'
+	u.nombre = usuario
+	u.contrasenia = contrasenia
 	u.save
 	puts u.id
 end
 
-crear
+crear('carlos', 'tevez')

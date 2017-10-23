@@ -19,3 +19,12 @@ D, [2017-10-23T11:17:24.491065 #4128] DEBUG -- :   [1m[36mUsuario Load (0.0ms)
 D, [2017-10-23T11:17:24.506665 #4128] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
 D, [2017-10-23T11:17:24.506665 #4128] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "contrasenia") VALUES (?, ?)[0m  [["nombre", "pablo"], ["contrasenia", "rojas"]]
 D, [2017-10-23T11:17:24.537866 #4128] DEBUG -- :   [1m[35m (31.2ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:18:51.452898 #4412] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:19:02.206546 #4340] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:19:02.222147 #4340] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:19:02.222147 #4340] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "contrasenia") VALUES (?, ?)[0m  [["nombre", "carlos"], ["contrasenia", "tevez"]]
+D, [2017-10-23T11:19:02.237747 #4340] DEBUG -- :   [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-10-23T11:19:04.939599 #4624] DEBUG -- :   [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+D, [2017-10-23T11:19:04.955200 #4624] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-10-23T11:19:04.955200 #4624] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "contrasenia") VALUES (?, ?)[0m  [["nombre", "carlos"], ["contrasenia", "tevez"]]
+D, [2017-10-23T11:19:04.986400 #4624] DEBUG -- :   [1m[35m (31.2ms)[0m  [1m[36mcommit transaction[0m
