@@ -1,4 +1,4 @@
-require './config/database'
+#require './config/database'
 
 Sequel.migration do
   	up do
