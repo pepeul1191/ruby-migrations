@@ -35,6 +35,7 @@ GEM
     rerun (0.11.0)
       listen (~> 3.0)
     ruby_dep (1.5.0)
+    sequel (5.1.0)
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -55,6 +56,7 @@ DEPENDENCIES
   mysql2
   puma
   rerun
+  sequel
   sinatra
   sqlite3
 

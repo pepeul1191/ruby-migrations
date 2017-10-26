@@ -6,6 +6,6 @@ Sequel.migration do
   	end
 
 	down do
-		drop_column :estado_usuario_id
+		drop_column :usuarios, :estado_usuario_id
 	end
 end
