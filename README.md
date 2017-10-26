@@ -1,4 +1,4 @@
-
+### Sequel Migrations
 
 Ejecutar migración
 
@@ -8,6 +8,10 @@ Ejecutar migración
 Ejecutar el 'down' de las migraciones de la última a la primera:
 
 	$ sequel -m db/migrations -M 0 sqlite://db/accesos.db
+
+Ejecutar el 'up' de las migraciones hasta un versión especifica:
+
+	$ sequel -m db/migrations -M #version sqlite://db/accesos.db
 
 Tipos de Datos de Columnas
 
@@ -30,3 +34,4 @@ Tipos de Datos de Columnas
 + http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html
 + http://www.rubydoc.info/gems/sequel/4.38.0/Sequel%2FDatabase%3Aschema
 + http://sequel.jeremyevans.net/rdoc/classes/Sequel/Database.html
++ http://sequel.jeremyevans.net/rdoc/classes/Sequel/Model/ClassMethods.html

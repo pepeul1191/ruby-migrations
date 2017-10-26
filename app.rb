@@ -13,3 +13,5 @@ puts '3 ++++++++++++++++++++++++++++++++++++'
 for u in EstadoUsuario.all
 	puts u.nombre
 end
+puts '4 ++++++++++++++++++++++++++++++++++++'
+puts Usuario.all.to_a.to_json
